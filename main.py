@@ -60,7 +60,7 @@ def convert(InputLatex):
     #if(powerfuncmatch):
      #   re.compile(powerfuncmatch)
       #  str = re.sub(powerfuncmatch,'to the power of',str)
-
+    #Outcome constitutes of converted string which is returned to getEquation.py
     Outcome = str
     return Outcome
 
