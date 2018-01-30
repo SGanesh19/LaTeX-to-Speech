@@ -12,7 +12,6 @@ def main():
         Inputstr = " "
         intermediateResult = " "
         matchingTags = r"begin{equation}(.*?)end{equation}"
-
         print("Opening a file...")
         Inputfile = open("G:/LaTex/ALLTRYS/Newtry1/S/Inputdoc.tex", "r")
         Inputstr = Inputfile.read()
