@@ -8,7 +8,7 @@ def rf(str):
         print("Opening and closing a file.")
         text_file = open("G:/LaTex/TeXmakerprj/try.pdf", "r")
         text_file.close()
-
+        print("Opening a pdf file")
         text_file = open("G:/LaTex/TeXmakerprj/try.pdf", "r")
         lines = text_file.readlines()
         for line in lines:
