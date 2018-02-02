@@ -1,5 +1,5 @@
 from Speak import tts
-
+#This performs reading file operation
 def rf():
     try:
         print("Building text to speech system")
