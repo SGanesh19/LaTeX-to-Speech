@@ -1,20 +1,20 @@
-import speech_recognition as sr
-import webbrowser as wb
-import speak
-def rf(str):
+from Speak import tts
+
+def rf():
     try:
         print("Building text to speech system")
 
         print("Opening and closing a file.")
-        text_file = open("G:/LaTex/TeXmakerprj/try.pdf", "r")
+        text_file = open("G:/LaTex/ALLTRYS/Newtry1/S/Outputdoc.txt", "r")
         text_file.close()
-        print("Opening a pdf file")
-        text_file = open("G:/LaTex/TeXmakerprj/try.pdf", "r")
+
+        text_file = open("G:/LaTex/ALLTRYS/Newtry1/S/Outputdoc.txt", "r")
         lines = text_file.readlines()
+        print(lines)
         for line in lines:
+            # line =line.replace('\n',' ')
             lang = 'en'
-            speak.tts(line, lang)
+            tts(line, lang)
             text_file.close()
     except Exception as e:
         print(e)
-
