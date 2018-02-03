@@ -9,9 +9,10 @@ str=""
 dictstr=""
 flag=0
 class Inputspliter:
-    def oneoperators( inputstr ):
-      print(input)
-    def twoparameters(self,input):
+    def oneoperators(self, inputstr ):
+        #why are u getting inputstr as input and printing 'input' ??? 
+        print(input)
+    def twoparameters(self, input):
         first=queue.popleft()
         second=queue.popleft()
         if input=='':
@@ -22,10 +23,11 @@ class Inputspliter:
         return finalstr
 def convert(InputLatex):
     #InputLatex=input("Enter the Latex format:")
-    string = ""
-    str = ""
+    #Commented the unused string variables here 
+    #string = ""
+    #str = ""
     dictstr = ""
-    Outcome= " "
+    #Outcome= " "
     match=re.match('sum_{.*?=.*?}\^{.*?}|prod_{.*?=.*?}\^{.*?}|int_{.*?}\^{.*?}',InputLatex)
     #powerfuncmatch = re.match('\w\^'|'\(.*?\)\^',InputLatex)
     #basefuncmatch = re.match('\w\_'|'\(.*?\)\_',InputLatex)
