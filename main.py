@@ -1,7 +1,7 @@
 from collections import deque
 import dict
 import producelatex
-import gtrail
+#import gtrail
 import matchingstring
 import geometry
 queue=deque([])
