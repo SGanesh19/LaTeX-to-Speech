@@ -254,4 +254,7 @@ class Ui_MainWindow(object):
         self.mConvert.setShortcut(_translate("MainWindow", "Ctrl+R", None))
         self.about.setText(_translate("MainWindow", "About", None))
 
+    def statusBar(self):
+        pass
+
 #import icon_rc

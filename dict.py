@@ -1,3 +1,4 @@
+#dictionary creation for latex format for mathematical symbol
 Dictionary= {'sqrt': 'square root of','<':'is less than','nless':'is not less than',
 'leq':'is less than or equal to','leqslant':'is less than or equal to','nleq':'is neither less than nor equal to',
 'nleqslant':'is neither less than nor equal to','prec':'precedes','nprec':'does not precede','preceq':'precedes or equals',
@@ -12,7 +13,7 @@ Dictionary= {'sqrt': 'square root of','<':'is less than','nless':'is not less th
 'simeq':'is similar or equal to','\sim':'is similar to','\neq':'is ot equal to','ne':'is not equal to','curlyclose':'close curly brace',
 '+':'plus','-':'minus','*':'multiplied by','/':'divided by','=':'is equal to','(':'open parenthesis',')':'close parenthesis',
 #DOTS
-'dots': 'and so on','dotsi': 'dots with integral','\dotsc': 'dots with commas','\dotsb': 'dots with binary operators/relations',
+'dots': 'and so on','dotsi': 'dots with integral','dotsc': 'dots with commas','dotsb': 'dots with binary operators/relations',
 'dotsm': 'multiplication dots','dot':'product of',
 #BINARY
 'pm':'plus or minus','mp':'minus or plus','times':'multiplied by','div':'divided by','star':'star','circ':'composed with',
@@ -44,11 +45,16 @@ Negationdbin ={'neq': 'is not equal to', 'ne': 'is not equal to', 'nless': 'is n
 'nnprec': 'does not precede','npreceq': 'neither precedes nor equals', 'nsim': 'is not similar to', 'notin': 'is not member of',
 'ngtr': 'is not greater than','ngeq':'is not greater than or equal to','nsucc':'does not succeed','nsucceq':
 'neither succedes nor equals','ncong': 'is not congruent','nparallel': 'is not parallel with'}
-Rhs={'sum_': 'sumation from', 'prod_': 'product of limits from','int_':'integral of ','limits':'limits from','infty':'infinity','lim':'limit',
-'coprod_':'coproduct of limits from','oint_':'open integral of limits from','cap_':'intersection from','cup_':'union from'}
-Special={'^': 'to the superscript of','_': 'to the subscript of','[':'open square bracket',']':'close square bracket',',': 'comma',
+Rhs={'sum': 'sumation','sum_':'summation','prod': 'product','prod_':'product','cfrac':'continued fractions',
+'int':'integral of','int_':'integarl of','limits':'limits','infty':'infinity','lim_':'limit','frac':'fraction of',
+'coprod':'coproduct of','oint':'open integral of','cap':'intersection of','cup':'union of'}
+Special={'^': 'to the superscript of','_':'to the supscript of','[':'open square bracket',']':'close square bracket',',':'comma',
 '(':'open parenthesis',')': 'close parenthesis','+': 'plus','-':'minus','*':'mulitiplied by','/':'divided by','=':'is equal to','!':'factorial'}
-Underlines={ 'hat': 'cap','bar': 'bar','vec': 'vector','overrightarrow': 'rightarrow','overleftarrow': 'leftarrow','overline':
+Special1={'^':'to','_':'from','[':'open square bracket',']':'close square bracket','(':'open parenthesis',')': 'close parenthesis','+': 'plus',
+'-':'minus','*':'mulitiplied by','/':'divided by','=':'is equal to','!':'factorial'}
+Accents={ 'prime':'dash','hat': 'cap','grave':'grave accent','dot':'dot','not':'','breve':'breve accent','tilde':'tilde or squiggle',
+'acute':'acute accent','ddot':'umlaut or dieresis','check':'check accent','widetilde':'widetilde accent',
+'bar': 'bar','vec': 'vector','overrightarrow': 'rightarrow','overleftarrow': 'leftarrow','overline':
 'overline','underline': 'underline','underbrace': 'underbrace','overbrace': 'over brace','xleftarrow': 'left arrow','xrightarrow':
 'rightarrow','overset': 'overset','underset': 'underset','widehat': 'widehat',
 #GEOMETRY

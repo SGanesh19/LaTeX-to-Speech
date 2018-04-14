@@ -21,14 +21,14 @@ class Inputspliter1:
           string=" "
           for element in queue1:
               string=string+" "+element
-          print(string)
-     #If there is a geometry element present in data control must be transfered and further processed
+          return string
+     #the method to process the geomentry symbols
       def parameters(self,data1):
             dictstr=""
             listlen=data1.__len__()
             for equ in data1:
-                if equ in dict.Underlines:
-                   queue.append(dict.Underlines.get(equ))
+                if equ in dict.Accents:
+                   queue.append(dict.Accents.get(equ))
                 elif equ != '':
                     if equ in dict.Dictionary:
                        dictstr = dict.Dictionary.get(equ)
@@ -40,3 +40,4 @@ class Inputspliter1:
                   fs = Inputspliter1().gparameters(dictstr)
             if(listlen==data1.__len__()):
                  fs = Inputspliter1().display()
+            return fs
