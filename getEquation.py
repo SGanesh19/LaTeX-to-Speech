@@ -2,7 +2,7 @@ import re
 from collections import deque
 from readfile import readfile,readtxt
 from main import convert
-from Sqrtfix import sqrt_string_match
+
 queue = deque([])
 def getEqu_frmfile(path):
     try:
