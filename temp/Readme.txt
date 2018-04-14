@@ -1,0 +1,1 @@
+Folder where the Speech file is generated.
